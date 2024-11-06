@@ -1,0 +1,25 @@
+.header {
+    padding-top: 39px;
+    display: flex;
+}
+
+.header__logo {
+    margin-right: 56px;
+}
+
+.servises__menu {
+    margin-right: 50px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 50px;
+}
+
+.header__search {
+    margin-right: 150px;
+
+}

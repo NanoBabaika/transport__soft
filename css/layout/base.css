@@ -5,7 +5,7 @@ html {
   color: #fff;
   font-size: 16px;
   line-height: 1.42;
-  background: #1f5d70;
+  background: #4765e9;
 }
 
 a {
@@ -52,33 +52,12 @@ address {
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
-  min-height: 1100px;
 }
+ 
 
-.wrapper {
-  background: url(../../img/bacgroundtopimg.png) center top no-repeat;
-  background-size: 1100px, 900px;
-  ;
-}
-
-
-.main__container {
+.container {
   margin: 0 auto;
-  width: 1100px;
+  width: 1400px;
 }
-
-.page-content {
-  background: #ffffff;
-  color: #303030;
-  padding: 40px 0;
-  display: flex;
-}
-
-
-
-.footer__container {
- margin-top: auto;
- min-width: 1150px;
-}
-
+ 
  
