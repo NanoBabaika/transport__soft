@@ -1,0 +1,26 @@
+.list__stages-wrapper {
+    margin-top: 50px;
+}
+
+.list__stages {
+    display: flex;
+}
+
+
+.list__stages-item {
+    width: 431px;
+    height: 301px;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    background: rgb(255, 255, 255);
+    padding: 50px 45px 50px 45px;
+}
+
+
+.decor__stages {
+    margin-bottom: 25px;
+}
+
+.list__stages-wrapper {
+    margin-bottom: 110px;
+}

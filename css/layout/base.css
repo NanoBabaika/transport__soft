@@ -56,9 +56,11 @@ address {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
   overflow: hidden;
-  background-image: url("../../img/png/head__banner.png"), linear-gradient(270.00deg, rgba(27, 30, 49, 0),rgba(27, 30, 49, 0.9) 78.125%);
+}
+
+.wrapper__head {
+  background-image: url("../../img/png/head__banner.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% 800px;
