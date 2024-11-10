@@ -98,10 +98,14 @@
     transition: .5s;
 }
 
-.wrapper__servises {
+.wrapper__servises--stages {
     background-image: url("../../img/png/swipe.png");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 20% 55%;
     background-size: 100% 1400px;
   
+}
+
+.head__title--white {
+    color: #fff;
 }
