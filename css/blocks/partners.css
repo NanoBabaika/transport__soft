@@ -1,0 +1,61 @@
+.container__partners_steck {
+    margin-top: 114px;
+}
+
+.list__partners{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 180px;
+}
+
+.list__partners-item {
+    width: 216px;
+    height: 140px;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stecks__info {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+.stek__list-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 45px;
+}
+
+.stek__list-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 75%;
+    text-align: left;
+    margin-bottom: 25px;
+    color: rgb(96, 200, 128);
+}
+
+.stek__list {
+    display: flex;
+    align-items: center;
+    margin-right: 31px;
+}
+
+.stek__list-item { 
+    width: 154px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
