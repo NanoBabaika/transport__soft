@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Transport__soft</title>
 </head>
@@ -410,7 +411,7 @@
             </div>
         </div>
     </div>
-    <div class="wrapper wrapper__form">
+    <div class="wrapper wrapper__FormAndSlider">
         <div class="container container__news_form">
             <div class="section__head">
                 <div class="section__head-number">07</div>
@@ -418,19 +419,33 @@
             </div>
             <div class="section__head-title">Новости</div>
             <div class="slider__block">
-                <ul class="slider">
+                 <div class="slider__arrows">
+                     <div id="left" class="arrows-item arrow-left">
+                        <img src="./img/svg/slider_arrow.svg" alt="" class="arrows-item-img">
+                     </div>
+                     <div id="right" class="arrows-item  arrow-right">
+                        <img src="./img/svg/slider_arrow.svg" alt="" class="arrows-item-img">
+                     </div>
+                 </div>   
+
+                <ul class="bxslider">
                     <li class="slider__item">
-                        <img src="" alt="" class="slider__item-img">
+                        <img src="./img/png/news_img1.png" alt="" class="slider__item-img">
                         <div class="slider__item-title">03.04.2023</div>
                         <p class="slider__item-text">Обзор рынка заказной разработкиот Tadviser</p>
                     </li>
                     <li class="slider__item">
-                        <img src="" alt="" class="slider__item-img">
+                        <img src="./img/png/news_img2.png" alt="" class="slider__item-img">
                         <div class="slider__item-title">03.04.2023</div>
                         <p class="slider__item-text">Обзор рынка заказной разработкиот Tadviser</p>
                     </li>
                     <li class="slider__item">
-                        <img src="" alt="" class="slider__item-img">
+                        <img src="./img/png/news_img3.png" alt="" class="slider__item-img">
+                        <div class="slider__item-title">03.04.2023</div>
+                        <p class="slider__item-text">Обзор рынка заказной разработкиот Tadviser</p>
+                    </li>
+                    <li class="slider__item">
+                        <img src="./img/png/news_img1.png" alt="" class="slider__item-img">
                         <div class="slider__item-title">03.04.2023</div>
                         <p class="slider__item-text">Обзор рынка заказной разработкиот Tadviser</p>
                     </li>
@@ -440,6 +455,8 @@
     </div>
          
     <!-- скрипты -->
-    <script src="./src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <script src="./src/jquery.js"></script>
+    <script src="./src/slider.js"></script>
 </body>
 </html>
