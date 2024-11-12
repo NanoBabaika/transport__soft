@@ -4,6 +4,13 @@
 
 .slider__arrows{
     display: flex;
+    position: relative;
+    left: 1160px;
+    top: -85px;
+}
+
+.bx-wrapper {
+    border: none;
 }
 
 .arrows-item {
@@ -25,10 +32,24 @@
     transform: rotate(180deg); 
 }
 
+
+
 .arrows-item:hover {
     background: rgb(96, 200, 128);
     transition: .3s;
 }
+
+.arrow-left:hover #arrow__img {
+    stroke: #fff;
+    transition: .3s;
+}
+
+
+.arrow-right:hover #arrow__img {
+    stroke: #fff;
+    transition: .3s;
+}
+
 
 .slider {
     display: flex;

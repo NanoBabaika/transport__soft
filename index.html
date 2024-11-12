@@ -421,14 +421,20 @@
             <div class="slider__block">
                  <div class="slider__arrows">
                      <div id="left" class="arrows-item arrow-left">
-                        <img src="./img/svg/slider_arrow.svg" alt="" class="arrows-item-img">
-                     </div>
+                        <svg width="20.000977" height="17.510254" viewBox="0 0 20.001 17.5103" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs/>
+                            <path id="arrow__img" d="M18.75 8.75L1.25 8.75M8.75 16.25L1.25 8.75L8.75 1.25" stroke="#000000" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                        </svg>
+                    </div>
                      <div id="right" class="arrows-item  arrow-right">
-                        <img src="./img/svg/slider_arrow.svg" alt="" class="arrows-item-img">
+                        <svg width="20.000977" height="17.510254" viewBox="0 0 20.001 17.5103" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs/>
+                            <path id="arrow__img" d="M18.75 8.75L1.25 8.75M8.75 16.25L1.25 8.75L8.75 1.25" stroke="#000000" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                        </svg>
                      </div>
                  </div>   
 
-                <ul class="bxslider">
+                <ul class="slider">
                     <li class="slider__item">
                         <img src="./img/png/news_img1.png" alt="" class="slider__item-img">
                         <div class="slider__item-title">03.04.2023</div>
@@ -451,12 +457,84 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="container container__form">
+                <div class="section__head section__head--whited">
+                    <div class="section__head-number">08</div>
+                <div class="section__head-decor section__head-decor--white"></div>
+                    <div class="section__head-title">Остались вопросы?</div>
+                    <p class="section__form-subtitle">Оставьте заявку, и наш менеджер свяжется с вами прямо сейчас!</p>
+                </div>
+                 
+    
+                <form action="post" class="form">
+                    <div class="form__block">
+                        <input class="form__input" type="text" name="name" placeholder="     Ваше имя" id="name">
+                    </div>
+                    
+                    <div class="form__block">
+                        <input class="form__input" type="tel" name="phone" placeholder="  Контактный Телефон" id="phone">    
+                    </div>
+                    
+                     <input id="form__btn-submit" class="form__btn-submit" type="submit" name="submit" value="Отправить заявку">
+                </form>
+
+                <div class="policy">
+                    <p class="policy__text">Соглашаюсь с  </p>
+                    <a href="#" class="policy__link">Политикой обработки персональных данных</a>
+                </div>
+
+            </div>
+ 
         </div>
     </div>
-         
+    <!-- переход -->
+    <div class="footer__wave"></div>
+    <div class="wrapper wrapper__footer">
+        <div class="container container__footer">
+            <footer class="footer">
+                <div class="footer__info-block">
+                    <ul class="footer__list">
+                        <div class="footer__list-title">Услуги </div>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item-link">ПО по учету горюче-смазочных материалов (ГСМ)</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item-link"> по учету заработной платы водителям ПО</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item-link">ПО по учету и уменьшению порожнего пробега</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <div class="footer__list-title">Компания</div>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item-link">О компании</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item-link">Блог</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="" class="footer__list-item-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <div class="footer__list-title">Контакты</div>
+                        <a href="#" class="footer-item-phone">+7 (900) 000-00-00</a>
+                        <a href="#" class="footer-item-mail">example@mail.ru</a>
+                        <button class="footer__btn">обратный звонок</button>
+                    </ul>    
+                </div>
+                <div class="footer__rights">
+                    <p class="footer__rights-text">© Copyright 2014 - 2024. ООО «ИТС»</p>
+                    <a href="" class="footer__rights-link">Политика конфеденциальности</a>
+                </div>
+            </footer>
+        </div>
+    </div>
     <!-- скрипты -->
-    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
     <script src="./src/jquery.js"></script>
-    <script src="./src/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+     <script src="./src/slider.js"></script>
 </body>
 </html>
