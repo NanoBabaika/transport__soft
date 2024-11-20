@@ -59,3 +59,23 @@
     justify-content: center;
     align-items: center;
 }
+
+@media(max-width:600px) {
+    .list__partners {
+        margin-left: 55px;
+    }
+    .stecks__info {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+    }
+    .stek__list {
+        flex-wrap: wrap;
+    }
+    .stek__list-title {
+        font-size: 20px;
+    }
+    .stecks__info {
+        margin-bottom: 80px;
+    }
+}

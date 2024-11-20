@@ -109,3 +109,38 @@
     margin-right: 150px;
     text-decoration: underline;
 }
+
+
+
+@media(max-width:600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__list {
+        display: none;
+    }
+    .footer__list-title {
+        display: none;    
+    }
+    .footer__list-contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    .footer__rights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__rights-link {
+        margin-right: 0;
+    }
+    .footer__wave--blue {
+        top: -1460px;
+    }
+}
+ 

@@ -72,3 +72,50 @@
     background: rgb(7, 226, 73);
     transition: .5s;
 }
+
+
+
+@media(max-width:600px) {
+    .container {
+        width: 400px;
+        padding-left: 20px;
+    }
+    .inovations__container {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        margin-top: 0;
+    }
+    .inovations__decor-img {
+        width: 335px;
+        height: 335px;
+    }
+    .section__head-number {
+        font-size: 30px;
+    }
+    .section__head-decor {
+        width: 40px;
+    }
+    .section__head-title {
+        margin-top: 20px;
+        font-size: 36px;
+    }
+    .section__head-title-tb {
+        margin-top: 20px;
+        font-size: 36px;
+        width: 28%;    
+    }
+
+    .inovations__info-text {
+        width: 350px;
+    }
+    .inovations__info-text-item {
+        font-size: 16px;
+    }
+    .btn__green {
+        margin-top: 70px;
+    }
+}
+
+

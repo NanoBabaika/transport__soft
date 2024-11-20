@@ -124,3 +124,81 @@
     top: -75px;
     z-index: -10;
 }
+
+
+@media(max-width:600px) {
+    .container__choose {
+        display: flex;
+        flex-direction: column;
+    }
+    .info__choose {
+        width: 100%;
+    }
+    .choose__title {
+        width: 90%;
+    }
+    .choose__info-text {
+        font-size: 16px;  
+        width: 90%;
+    }
+    .choose__decor {
+        display: flex;
+        flex-direction: column;
+        width: 334px;
+        height: 334px;
+        margin-left: 25px;
+    }
+    /* стили декор элемента */
+    .choose__decor-info--title {
+        font-size: 18px;
+    }
+    .choose__decor-info--text {
+        font-size: 14px;
+        width: 160px;
+     }
+    .btn__green {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .wrapper__decor-info {
+        left: 13%;
+        top: 12%;
+    }
+    .choose__decor-info {
+        max-width: 211px;
+        max-height: 211px;
+        padding-top: 60px;
+    }
+    .choose__decor-border {
+        width: 287px;
+        height: 287px;
+    }
+    .decor-list-item {
+        width: 47px;
+        height: 47px;
+     }
+    .decor-list-item-bg {
+        width: 47px;
+        height: 47px;
+        padding: 9px 4px 2px 4px; 
+    }
+    .decor-list-item-img {
+        width: 25px;
+        height: 25px;
+    }
+    .decor-list-item-1 {
+        top: -235px;
+    }
+    .decor-list-item-2 {
+        top: -150px;
+    }
+    .decor-list-item-3 {
+        top: -46px;
+    }
+    .decor-list-item-4 {
+        top: -237px;
+    }
+    .border__decor-img{
+        display: none;
+    }
+} 

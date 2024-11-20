@@ -86,3 +86,19 @@
     line-height: 140%;
     text-align: left;
 }
+
+
+@media(max-width:600px) {
+    .container__news {
+        padding-left: 5px;
+    }
+    .slider__item {
+        width: 345px;
+    }
+    .slider__arrows {
+    left: 210px;
+    top: -35px;
+    }
+}
+
+ 

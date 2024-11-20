@@ -8,6 +8,8 @@
 
 
 .list__stages-item {
+    /* display: flex;
+    flex-direction: column; */
     width: 431px;
     height: 301px;
     box-sizing: border-box;
@@ -23,4 +25,31 @@
 
 .list__stages-wrapper {
     margin-bottom: 110px;
+}
+
+
+@media(max-width:600px) {
+    .list__stages {
+        display: flex;
+        flex-direction: column;
+    }
+    .decor__stages {
+        min-width: 40px;
+        min-height: 40px;  
+    }
+    .list__stages-item {
+        width: 335px;
+        height: 135px;
+        display: flex;
+        padding: 30px 20px 30px 20px;
+    }
+    .stages__text--wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .wrapper__servises--stages{
+        background-position: 20% 21%;
+        background-size: 100% 1100px;
+    }
 }

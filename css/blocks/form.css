@@ -96,3 +96,39 @@
     height: 750px;
     width: 100%;
 }
+
+
+
+@media(max-width:600px) {
+    .title-form {
+        width: 60%;
+    }
+    .subtitle--form {
+        width: 75%;  
+        font-size: 16px;   
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form__input {
+        width: 335px;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    .form__btn-submit {
+        width: 335px;
+        height: 50px;
+        margin-right: 33px;
+    }
+    .policy {
+        margin-top: 20px;
+    }
+    .policy__text {
+        font-size: 12px;
+    }
+    .policy__link {
+        font-size: 12px;    
+    }
+}
+ 
